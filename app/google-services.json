@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "416592715373",
+    "project_id": "bac-cash-mobile",
+    "storage_bucket": "bac-cash-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416592715373:android:e4617d1bb7a4e216266964",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmIa9LaC8I1NWs9Os47SUDpIJaac2w0S4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
