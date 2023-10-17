@@ -1,4 +1,4 @@
-package com.example.kelineyt.fragments.lognRegister
+package com.example.myapplication.fragments.lognRegister
 
 import android.os.Bundle
 import android.util.Log
@@ -9,12 +9,12 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
-import com.example.kelineyt.R
-import com.example.kelineyt.data.User
-import com.example.kelineyt.databinding.FragmentRegisterBinding
-import com.example.kelineyt.util.RegisterValidation
-import com.example.kelineyt.util.Resource
-import com.example.kelineyt.viewmodel.RegisterViewModel
+import com.example.myapplication.R
+import com.example.myapplication.data.User
+import com.example.myapplication.databinding.FragmentRegisterBinding
+import com.example.myapplication.util.RegisterValidation
+import com.example.myapplication.util.Resource
+import com.example.myapplication.viewmodel.RegisterViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.collect

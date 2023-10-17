@@ -1,14 +1,14 @@
-package com.example.kelineyt.fragments.categories
+package com.example.myapplication.fragments.categories
 
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
-import com.example.kelineyt.data.Category
-import com.example.kelineyt.util.Resource
-import com.example.kelineyt.viewmodel.CategoryViewModel
-import com.example.kelineyt.viewmodel.factory.BaseCategoryViewModelFactoryFactory
+import com.example.myapplication.data.Category
+import com.example.myapplication.util.Resource
+import com.example.myapplication.viewmodel.CategoryViewModel
+import com.example.myapplication.viewmodel.factory.BaseCategoryViewModelFactoryFactory
 import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.firestore.FirebaseFirestore
 import dagger.hilt.android.AndroidEntryPoint

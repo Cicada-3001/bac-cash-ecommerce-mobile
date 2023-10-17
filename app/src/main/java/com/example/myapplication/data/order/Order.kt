@@ -1,8 +1,8 @@
-package com.example.kelineyt.data.order
+package com.example.myapplication.data.order
 
 import android.os.Parcelable
-import com.example.kelineyt.data.Address
-import com.example.kelineyt.data.CartProduct
+import com.example.myapplication.data.Address
+import com.example.myapplication.data.CartProduct
 import kotlinx.parcelize.Parcelize
 import java.text.SimpleDateFormat
 import java.util.*

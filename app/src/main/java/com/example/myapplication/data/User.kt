@@ -1,4 +1,4 @@
-package com.example.kelineyt.data
+package com.example.myapplication.data
 
 data class User(
     val firstName: String,

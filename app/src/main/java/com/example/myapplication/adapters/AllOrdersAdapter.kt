@@ -1,4 +1,4 @@
-package com.example.kelineyt.adapters
+package com.example.myapplication.adapters
 
 import android.graphics.drawable.ColorDrawable
 import android.view.LayoutInflater
@@ -7,11 +7,11 @@ import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView.Adapter
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
-import com.example.kelineyt.R
-import com.example.kelineyt.data.order.Order
-import com.example.kelineyt.data.order.OrderStatus
-import com.example.kelineyt.data.order.getOrderStatus
-import com.example.kelineyt.databinding.OrderItemBinding
+import com.example.myapplication.R
+import com.example.myapplication.data.order.Order
+import com.example.myapplication .data.order.OrderStatus
+import com.example.myapplication.data.order.getOrderStatus
+import com.example.myapplication.databinding.OrderItemBinding
 
 class AllOrdersAdapter : Adapter<AllOrdersAdapter.OrdersViewHolder>() {
 

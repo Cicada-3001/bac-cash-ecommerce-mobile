@@ -1,4 +1,4 @@
-package com.example.kelineyt.firebase
+package com.example.myapplication.firebase
 
 import com.example.kelineyt.data.CartProduct
 import com.google.firebase.auth.FirebaseAuth

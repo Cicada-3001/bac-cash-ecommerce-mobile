@@ -1,4 +1,4 @@
-package com.example.kelineyt.fragments.categories
+package com.example.myapplication.fragments.categories
 
 import android.os.Bundle
 import android.util.Log

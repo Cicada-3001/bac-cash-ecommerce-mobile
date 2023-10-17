@@ -1,9 +1,9 @@
-package com.example.kelineyt.di
+package com.example.myapplication.di
 
 import android.app.Application
 import android.content.Context.MODE_PRIVATE
-import com.example.kelineyt.firebase.FirebaseCommon
-import com.example.kelineyt.util.Constants.INTRODUCTION_SP
+import com.example.myapplication.firebase.FirebaseCommon
+import com.example.myapplication.util.Constants.INTRODUCTION_SP
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.ktx.firestore

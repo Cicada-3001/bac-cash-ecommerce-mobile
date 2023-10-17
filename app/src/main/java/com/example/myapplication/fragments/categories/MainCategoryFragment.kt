@@ -1,4 +1,4 @@
-package com.example.kelineyt.fragments.categories
+package com.example.myapplication.fragments.categories
 
 import android.os.Bundle
 import android.util.Log
@@ -14,15 +14,15 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.kelineyt.R
-import com.example.kelineyt.adapters.BestDealsAdapter
-import com.example.kelineyt.adapters.BestProductsAdapter
-import com.example.kelineyt.adapters.SpecialProductsAdapter
-import com.example.kelineyt.databinding.FragmentHomeBinding
-import com.example.kelineyt.databinding.FragmentMainCategoryBinding
-import com.example.kelineyt.util.Resource
-import com.example.kelineyt.util.showBottomNavigationView
-import com.example.kelineyt.viewmodel.MainCategoryViewModel
+import com.example.myapplication.R
+import com.example.myapplication.adapters.BestDealsAdapter
+import com.example.myapplication.adapters.BestProductsAdapter
+import com.example.myapplication.adapters.SpecialProductsAdapter
+import com.example.myapplication.databinding.FragmentHomeBinding
+import com.example.myapplication.databinding.FragmentMainCategoryBinding
+import com.example.myapplication.util.Resource
+import com.example.myapplication.util.showBottomNavigationView
+import com.example.myapplication.viewmodel.MainCategoryViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collectLatest
 

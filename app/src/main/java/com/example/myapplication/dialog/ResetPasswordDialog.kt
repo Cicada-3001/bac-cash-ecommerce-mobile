@@ -1,9 +1,9 @@
-package com.example.kelineyt.dialog
+package com.example.myapplication.dialog
 
 import android.widget.Button
 import android.widget.EditText
 import androidx.fragment.app.Fragment
-import com.example.kelineyt.R
+import com.example.myapplication.R
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialog
 

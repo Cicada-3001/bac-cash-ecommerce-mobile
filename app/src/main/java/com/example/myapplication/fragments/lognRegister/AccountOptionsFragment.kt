@@ -6,8 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.example.kelineyt.R
-import com.example.kelineyt.databinding.FragmentAccountOptionsBinding
+import com.example.myapplication.R
+import com.example.myapplication.databinding.FragmentAccountOptionsBinding
 
 class AccountOptionsFragment: Fragment(R.layout.fragment_account_options) {
     private lateinit var binding: FragmentAccountOptionsBinding

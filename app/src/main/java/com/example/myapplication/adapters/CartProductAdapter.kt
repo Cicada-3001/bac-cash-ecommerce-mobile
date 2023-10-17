@@ -8,10 +8,10 @@ import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.kelineyt.data.CartProduct
-import com.example.kelineyt.data.Product
-import com.example.kelineyt.databinding.CartProductItemBinding
-import com.example.kelineyt.helper.getProductPrice
+import com.example.myapplication.data.CartProduct
+import com.example.myapplication.data.Product
+import com.example.myapplication.databinding.CartProductItemBinding
+import com.example.myapplication.helper.getProductPrice
 
 class CartProductAdapter: RecyclerView.Adapter<CartProductAdapter.CartProductsViewHolder>() {
 

@@ -1,4 +1,4 @@
-package com.example.kelineyt.adapters
+package com.example.myapplication.adapters
 
 import android.graphics.drawable.ColorDrawable
 import android.util.Log
@@ -8,9 +8,9 @@ import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView.Adapter
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
-import com.example.kelineyt.R
-import com.example.kelineyt.data.Address
-import com.example.kelineyt.databinding.AddressRvItemBinding
+import com.example.myapplication.R
+import com.example.myapplication.data.Address
+import com.example.myapplication.databinding.AddressRvItemBinding
 
 class AddressAdapter : Adapter<AddressAdapter.AddressViewHolder>() {
 
@@ -26,8 +26,6 @@ class AddressAdapter : Adapter<AddressAdapter.AddressViewHolder>() {
                 }
             }
         }
-
-
     }
 
     private val diffUtil = object : DiffUtil.ItemCallback<Address>() {

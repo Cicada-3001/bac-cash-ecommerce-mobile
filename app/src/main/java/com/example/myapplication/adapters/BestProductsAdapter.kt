@@ -9,9 +9,9 @@ import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.kelineyt.data.Product
-import com.example.kelineyt.databinding.ProductRvItemBinding
-import com.example.kelineyt.helper.getProductPrice
+import com.example.myapplication.data.Product
+import com.example.myapplication.databinding.ProductRvItemBinding
+import com.example.myapplication.helper.getProductPrice
 
 class BestProductsAdapter : RecyclerView.Adapter<BestProductsAdapter.BestProductsViewHolder>() {
 
